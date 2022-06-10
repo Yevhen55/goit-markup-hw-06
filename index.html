@@ -389,10 +389,48 @@
                     </li>
                 </ul>
             </div>
+            <form>
+            
+                <div class="folow-email">
+                    <h2 class="folow">Подпишитесь на рассылку</h2>
+                    <input type="email" placeholder="E-mail">
+                    <button type="submit">Подписаться</button>
+                </div>
+              </form>
         </div>
+        
     </footer>
     <div class="backdrop  is-hidden" data-modal>
         <div class="modal">
+            <form> 
+            <h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
+            <div class="form-field">
+             <label for="name">Имя</label>
+             <input type="name" text="name" id="name">
+             </div>
+            <div class="form-field">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel">
+             </div>
+            <div class="form-field">
+                <label for="email">Почта</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-field">
+                <label for="comment">Коментарий</label>
+                <textarea class="commet" name="comment"  
+                 id="coment"  
+                 rows="10" 
+                 placeholder="Введите текст"
+                 >
+                </textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label>Соглашаюсь с рассылкой и принимаю Условия договора</label>
+            </div>
+            <button type="submit">Отправить</button>
+            </form>
             <button class="modal-close" data-modal-close><svg class="icon-close" width="11" height="11">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg></button>
