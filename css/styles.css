@@ -292,7 +292,7 @@ opacity:0;}
 form {padding-right: 40px;
     
     padding-left: 40px;}
-.form-field{padding:auto ;
+.form-field{
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -310,7 +310,7 @@ color: rgba(117, 117, 117, 1);
 }
 .form-field input {border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; width: 448px;
-height: 40px; 
+height: 40px; padding-left: 42px; 
 }
 .form-field .commet{border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;}
@@ -324,10 +324,20 @@ height: 40px;
     resize: none;
 }
 
-.icon-input1 { position:absolute;
+.icon.input1 { position:absolute;
 bottom: 14px;
 left: 15px;
 }
+.icon.input2{position: absolute;
+    bottom: 13.74px;
+    left: 14.27px;
+}
+.icon.input3 {position: absolute;
+bottom: 14px;
+    left: 13.5px;
+
+}
+
 /* Модальное окно  */
 
 .paint {
