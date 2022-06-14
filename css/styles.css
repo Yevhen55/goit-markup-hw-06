@@ -299,7 +299,7 @@ form {padding-right: 40px;
    position: relative;
    
 }
-.form-field label {margin-bottom: 4px;
+.form-field .form-label {margin-bottom: 4px;
 font-family: "Roboto";
 font-weight: 400;
 font-size: 12px;
@@ -308,7 +308,7 @@ letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 1);
 
 }
-.form-field input {border: 1px solid rgba(33, 33, 33, 0.2);
+.form-field .form-input {border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; width: 448px;
 height: 40px; padding-left: 42px; 
 }
@@ -337,6 +337,8 @@ bottom: 14px;
     left: 13.5px;
 
 }
+
+.form-label:focus{ }
 
 /* Модальное окно  */
 
