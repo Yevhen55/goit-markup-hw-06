@@ -310,7 +310,7 @@ color: rgba(117, 117, 117, 1);
 }
 .form-field .form-input {border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; width: 448px;
-height: 40px; padding-left: 42px; 
+height: 40px; padding-left: 42px; outline:transparent;cursor: pointer;
 }
 .form-field .commet{border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;}
@@ -321,7 +321,8 @@ height: 40px; padding-left: 42px;
     padding-bottom:12px ;
     padding-left:16px ;
     padding-right:16px ;
-    resize: none;
+    resize: none; 
+    outline: transparent;
 }
 
 .icon.input1 { position:absolute;
@@ -330,16 +331,67 @@ left: 15px;
 }
 .icon.input2{position: absolute;
     bottom: 13.74px;
-    left: 14.27px;
-}
+    left: 14.27px;}
 .icon.input3 {position: absolute;
 bottom: 14px;
     left: 13.5px;
 
 }
+.button-modal{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--text-footer-textbtn);
+        background-color: var(--focus-hover-active-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            width:200px ;
+            height:50px ;
+            padding-top:10px ;
+            padding-right:56px ;
+            padding-left:55px ;
+            padding-bottom: 10px;
+            margin-top:30px ;
+            margin-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+}
+.button-folow{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-footer-textbtn);
+    background-color: var(--focus-hover-active-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;border: none;
+            cursor: pointer;
+            width: 200px;
+            height: 50px;
 
-.form-label:focus{ }
+}
 
+.form-input:hover,
+.form-input:focus {
+    border: 1px solid var(--focus-hover-active-color)
+}
+
+.form-field:hover .icon,
+.form-field:focus .icon{
+  fill: var(--focus-hover-active-color);
+}
 /* Модальное окно  */
 
 .paint {
@@ -820,6 +872,8 @@ text-transform: uppercase;
 .list-icon .follow-item+.follow-item {margin-left: 10px;}
 .fot{display: flex; 
     align-items:baseline;}
+
+.text-folow{}  
 .footer-ico{margin-left: 70px;}
 .folow-email{ margin-left: 93px;}
 .folow-email input {

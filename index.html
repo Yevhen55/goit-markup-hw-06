@@ -392,9 +392,9 @@
             <form>
             
                 <div class="folow-email">
-                    <h2 class="folow">Подпишитесь на рассылку</h2>
+                    <h2 class="text-folow">Подпишитесь на рассылку</h2>
                     <input type="email" placeholder="E-mail">
-                    <button type="submit">Подписаться</button>
+                    <button class="button-folow" type="submit">Подписаться</button>
                 </div>
               </form>
         </div>
@@ -402,7 +402,7 @@
     </footer>
     <div class="backdrop  is-hidden" data-modal>
         <div class="modal">
-            <form> 
+            <form autocomplete="off"> 
             <h2 class="modal-text">Оставьте свои данные, мы вам перезвоним</h2>
             <div class="form-field">
              <label for="name" class="form-label">Имя</label>
@@ -424,13 +424,14 @@
                 <svg width="15" height="12" class="icon input3">
                     <use   href="./images/symbol-defs.svg#icon-mail"></use>
                 </svg>
+               
             </div>
             <div class="form-field">
-                <label for="comment">Коментарий</label>
-                <textarea class="commet" name="comment"  
+                <label for="comment" class="form-label">Коментарий</label>
+                <textarea class="commet" name="comment" placeholder="Введите текст" 
                  id="coment"  
                  rows="10" 
-                 placeholder="Введите текст"
+                
                  >
                 </textarea>
             </div>
@@ -438,7 +439,7 @@
                 <input type="checkbox" name="" id="">
                 <label>Соглашаюсь с рассылкой и принимаю Условия договора</label>
             </div>
-            <button type="submit">Отправить</button>
+            <button class="button-modal" type="submit">Отправить</button>
             </form>
             <button class="modal-close" data-modal-close><svg class="icon-close" width="11" height="11">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
