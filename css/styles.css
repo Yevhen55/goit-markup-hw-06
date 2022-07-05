@@ -323,8 +323,9 @@ height: 40px; padding-left: 42px; outline:transparent;cursor: pointer;transition
     padding-right:16px ;
     resize: none; 
     outline: transparent;
+   
 }
-
+.radio{margin-top:20px;}
 
 .icon.input1 { position:absolute;
 bottom: 14px;
@@ -367,24 +368,7 @@ bottom: 14px;
             margin-left: auto;
             margin-right: auto;
 }
-.button-folow{font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--text-footer-textbtn);
-    background-color: var(--focus-hover-active-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;border: none;
-            cursor: pointer;
-            width: 200px;
-            height: 50px;
 
-}
 .text-email{ color:var(--backgroundcolor-team)}
 .commet:hover,
 .commet:focus{border: 1px solid var(--focus-hover-active-color)
@@ -884,14 +868,42 @@ text-transform: uppercase;
  
 .footer-ico{margin-left: 70px;}
 .folow-email{ margin-left: 93px;}
-.folow-email input {
+.folow-email input {padding-left: 16px;
     width:358px ;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
         background-color: var(--fon-footer-h1);
-        cursor: pointer;
-       
-}
+        cursor: pointer;}
 
+.text-folow{color: var(--backgroundcolor-team);}
+.folow-input-button {display: flex;}
+.button-folow {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-footer-textbtn);
+    background-color: var(--focus-hover-active-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    padding-left: 29px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icon-send {margin-left: 10px;
+width: 24px;
+height: 24px;
+}
