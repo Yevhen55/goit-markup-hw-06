@@ -313,7 +313,7 @@ color: rgba(117, 117, 117, 1);
 height: 40px; padding-left: 42px; outline:transparent;cursor: pointer;transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .form-field .commet{border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px; transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)}
+    border-radius: 4px; transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);margin-bottom: 20px;}
 .form-field textarea {
     width: 448px;
     height: 120px;
@@ -340,7 +340,22 @@ bottom: 14px;
     left: 13.5px;transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
-.modal-link{width: 127.734px;height: 23.93px;}
+.label-checkbox{font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+   
+
+}
+.modal-link{width: 127.734px;
+    height: 23.93px;
+    color: var(--focus-hover-active-color);
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
 .button-modal{
     font-family: 'Roboto';
         font-style: normal;
@@ -868,7 +883,11 @@ text-transform: uppercase;
  
 .footer-ico{margin-left: 70px;}
 .folow-email{ margin-left: 93px;}
-.folow-email input {padding-left: 16px;
+.folow-email .text-email {padding-left: 16px;padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
     width:358px ;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -877,7 +896,18 @@ text-transform: uppercase;
         background-color: var(--fon-footer-h1);
         cursor: pointer;}
 
-.text-folow{color: var(--backgroundcolor-team);}
+.text-folow{color: var(--backgroundcolor-team);margin-top: 0; margin-bottom: 20px;
+font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+   text-transform: uppercase;
+}
+
+
+
+
 .folow-input-button {display: flex;}
 .button-folow {
     font-family: 'Roboto';
