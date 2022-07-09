@@ -398,6 +398,29 @@ letter-spacing: 0.03em;
 .form-field:focus .icon{
   fill: var(--focus-hover-active-color);
 }
+.radio{
+    display: flex;
+    align-items: center;
+}
+.visually-hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+.modal-check{margin-right: 8.38px;
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--primary-text-color) ;
+    border-radius: 4px;
+}
+.chechbox:checked + .modal-check {
+    border-color: var(--focus-hover-active-color);
+    background-color: var(--focus-hover-active-color);
+    background-image: url(../image/icon\ check\ \(1\).svg);
+    background-size: contain;
+    background-origin: border-box;
+}
 
 /* Модальное окно  */
 
