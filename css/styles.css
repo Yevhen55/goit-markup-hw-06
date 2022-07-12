@@ -870,11 +870,13 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     color: var(--text-footer-textbtn)
 }
 
-.folow{color:var(--backgroundcolor-team);
+.folow{
+    font-family: 'Roboto';
+    color:var(--backgroundcolor-team);
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height:1.14;
-    font-style: normal;
+    font-style: 700;
 margin-top: 0;
 margin-bottom: 20px;
 text-transform: uppercase;
