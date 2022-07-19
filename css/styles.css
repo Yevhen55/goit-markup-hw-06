@@ -975,7 +975,7 @@ padding-left: 29px;
 padding-right: 28px;
 padding-top: 10px;
 padding-bottom: 10px;
-transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .icon-send {margin-left: 10px;
 width: 24px;
